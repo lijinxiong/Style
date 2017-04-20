@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"/>
+
+
+    <!--centerX/Y 默认是0.5，在正中间，0.0 在左上角-->
+    <!--gradientRadius 为辐射的半径，当type 为radial的时候必须属性-->
+
+    <gradient
+        android:centerX="0.0"
+        android:centerY="0.0"
+        android:gradientRadius="100dp"
+        android:startColor="@color/colorPrimaryDark"
+        android:type="radial"
+        />
+
+</shape>
